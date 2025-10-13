@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="description" content="Official portfolio website of a UET Peshawar student showcasing web programming lab tasks and HTML projects.">
+<meta name="keywords" content="UET, Web Programming, HTML, Student Portfolio, Peshawar">
+<meta name="author" content="Your Name">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Contact Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 20px;
+    }
+    form {
+      background-color: white;
+      width: 320px;
+      margin: auto;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+    input, textarea {
+      width: 90%;
+      margin: 8px 0;
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      background-color: #004a99;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #0059b3;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Contact Me</h1>
+
+  <form action="https://formspree.io/f/xvgwvqyb" method="POST">
+    <input type="text" name="name" placeholder="Your Name" required><br>
+    <input type="email" name="email" placeholder="Your Email" required><br>
+    <textarea name="message" rows="4" placeholder="Your Message" required></textarea><br>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <p style="margin-top:20px;">
+    <a href="index.html">← Back to Home</a>
+  </p>
+
+</body>
+</html>
